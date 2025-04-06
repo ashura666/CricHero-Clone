@@ -17,7 +17,7 @@ This is a **responsive clone of the CricHero website** built using **HTML, CSS, 
 
 ## 📸 Screenshots
 
-![CricHero Screenshot]()
+![CricHero Screenshot](https://github.com/ashura666/CricHero-Clone/blob/main/CricHero-Clone.png)
 
 
 ---
