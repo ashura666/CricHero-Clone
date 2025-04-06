@@ -1,0 +1,356 @@
+    .nav{
+    height: 65px;
+    width: 100%;
+    display: flex;
+    /* border: 1px solid black; */
+}
+.navImg img{
+    height: 50px;
+    width: 50px;
+}
+.navImg{
+    display: flex;
+}
+.navB{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: -26px;
+    font-size: 18px;
+}
+.navTxt1{
+    display: flex;
+    align-items: center;
+    font-size: 24px; 
+}
+.navTxt2{
+    color: red; 
+    font-weight: bold;
+    margin-left: 3px; 
+   
+}
+.navB p{
+    margin-top: -16px; 
+    font-size: 9px;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.navLink{
+    width: 53%;
+    display: flex;
+    margin-left: 50px;
+    padding-left:   400px;
+    font-size: 15px;
+}
+.navLink ul,a{
+    display: flex;
+    color: black;
+    font-family: sans-serif;
+    text-decoration: none;
+    gap: 20px;
+}
+
+
+/* Live Score */
+#liveScore{
+    height: 100px;
+    width: 92px;
+    box-shadow: 0 0 px rgb(203, 188, 188);
+    position: absolute;
+    list-style: none;
+    cursor: pointer;
+    left: 46%;
+    font-family: sans-serif;
+    display: none;
+    margin-top: -20px;
+    background-color: rgb(251, 251, 251);
+    box-shadow: 3px 2px 8px rgb(171, 161, 161);
+}
+#liveScore li{
+    font-size: 12px;
+    padding: 5px 3px;
+}
+#liveScore li:hover{
+    background-color: gray;
+    color: rgb(117, 7, 7);
+}
+
+/* network */
+#network{
+    height: 100px;
+    width: 92px;
+    box-shadow: 0 0 px rgb(203, 188, 188);
+    position: absolute;
+    list-style: none;
+    cursor: pointer;
+    left: 54.6%;
+    font-family: sans-serif;
+    display: none;
+    margin-top: -20px;
+    background-color: rgb(251, 251, 251);
+    box-shadow: 3px 2px 8px rgb(171, 161, 161);
+
+}
+#network li{
+    font-size: 12px;
+    padding: 5px 3px;
+}
+#network li:hover{
+    background-color: gray;
+    color: rgb(117, 7, 7);
+}
+
+/* ADD ONS  */
+#addOns{
+    height: 150px;
+    width: 134px;
+    box-shadow: 0 0 px rgb(203, 188, 188);
+    position: absolute;
+    list-style: none;
+    cursor: pointer;
+    left: 62%;
+    font-family: sans-serif;
+    display: none;
+    margin-top: -20px;
+    background-color: rgb(251, 251, 251);
+    box-shadow: 3px 2px 8px rgb(171, 161, 161);
+
+}
+#addOns li{
+    font-size: 12px;
+    padding: 5px 3px;
+}
+#addOns li:hover{
+    background-color: gray;
+    color: rgb(117, 7, 7);
+}
+#addOnsSubdiv{
+    height: 100px;
+    width: 102px;
+    box-shadow: 0 0 px rgb(203, 188, 188);
+    position: absolute;
+    list-style: none;
+    cursor: pointer;
+    left: 72%;
+    margin-top: 18px;
+    font-family: sans-serif;
+    display: none;
+    background-color: rgb(251, 251, 251);
+    box-shadow: 3px 2px 8px rgb(171, 161, 161);
+
+}
+#addOnsSubdiv li{
+    font-size: 12px;
+    padding: 5px 3px;
+}
+#addOnsSubdiv li:hover{
+    background-color: gray;
+    color: rgb(117, 7, 7);
+}
+
+/* more  */
+#more{
+    height: 180px;
+    width: 169px;
+    box-shadow: 0 0 px rgb(203, 188, 188);
+    position: absolute;
+    list-style: none;
+    cursor: pointer;
+    left: 67.2%;
+    font-family: sans-serif;
+    display: none;
+    margin-top: -20px;
+    background-color: rgb(251, 251, 251);
+    box-shadow: 3px 2px 8px rgb(171, 161, 161);
+
+}
+#more li{
+    font-size: 12px;
+    padding: 5px 3px;
+}
+#more li:hover{
+    background-color: gray;
+    color: rgb(117, 7, 7);
+}
+
+/* main body */
+
+.mainBody{
+    height: 650px;
+    width: 100%;
+    font-family: sans-serif;
+    background-image: url("https://cricheroes-media-mumbai.s3.ap-south-1.amazonaws.com/cricheroes_website_new/home/home-banner.jpg");
+    background-size: cover;
+    color: white;
+    /* margin: auto; */
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.mainBody h1{
+    font-size: 60px;
+    font-weight: lighter;
+    padding-left: 65px;
+}
+.mainBody h2{
+    font-size: 30px;
+    font-weight: lighter;
+    padding-left: 65px;
+}
+.mainBody h2 span{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.mainBody h1 span{
+    font-size: 60px;
+    font-weight: 900;    
+}
+
+.mainBody1{
+    display: flex;
+    gap: 20px;
+    padding-left: 65px;
+}
+
+.mainBodyRating{
+    margin-top: 5px;
+    display: flex;
+    gap: 20px;
+
+}
+.rate1{
+    width: 250px;
+    height: 80px;
+    /* border: 1px solid white; */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    margin-left: 70px;
+}
+.rate2{
+    width: 250px;
+    height: 80px;
+    /* border: 1px solid white; */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+}
+.rate1 img, .rate2 img{
+    height: 60px;
+    width: 60px;
+    /* margin-left: 10px; */
+}
+.rate1 h4, .rate2 h4{
+    margin-top: 6px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+/* mainBody Featuring */
+.mainBodyFt{
+    width: 630px;
+    height: 170px;
+    //border: 1px solid white;
+    margin-left: 65px;
+}
+.mainBodyFt h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+.mainBody h3::after{
+    content: "";
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    line-height: 32px;
+    background-color: white;
+}
+/* .mainBodyFt span{
+    font-size: 20px;
+    font-weight: 900;
+} */
+ .effects{
+    width: 100%;
+    height: 900px;
+    display: block;
+    margin: auto;
+ }
+.effectsHead{
+    width: 100%;
+    height: 80px;
+    color: red;
+    margin-left: 40%;
+    font-size: 22px;
+    font-weight: 500;
+}
+.effectsBody{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    margin: auto;
+}
+
+
+.effectLeft{
+    width: 33%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.effectCenter{
+    height: 100%;
+    width: 33%;
+    margin-left: 10px;
+    /* border: 1px solid black; */
+}
+.effectCenter img{
+    margin-left: 50px;
+    display: none;
+}
+.effectRight{
+    width: 33%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/* cards */
+.card{
+    width: 396px;
+    height: 120px;
+    border: 1px solid black;
+    color: black;
+    display: flex;
+    margin-left: 30px;
+    margin-top: 8px;
+    padding: 16px;
+    border-radius: 10px;
+    gap: 20px;
+    transition: 0.5s;
+}
+.card:hover{
+    box-shadow: 0 0 35px rgb(203, 188, 188);
+    transform: scale(1.05);
+
+}
+.cardRight{
+    width: 396px;
+    height: 120px;
+    border: 1px solid black;
+    color: black;
+    display: flex;
+    margin-top: 8px;
+    padding: 16px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.cardRight:hover{
+    box-shadow: 0 0 35px rgb(203, 188, 188);
+    transform: scale(1.05);
+}
+
