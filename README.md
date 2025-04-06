@@ -11,7 +11,7 @@ This is a **responsive clone of the CricHero website** built using **HTML, CSS, 
 - Fully responsive design (work in progress)
 - Clean HTML/CSS layout
 - Interactive elements using JavaScript
-- Optimized for mobile and desktop devices
+- Optimized for mobile and desktop devices (work in progress for mobile device)
 
 ---
 
@@ -27,7 +27,6 @@ This is a **responsive clone of the CricHero website** built using **HTML, CSS, 
 - HTML5
 - CSS3
 - JavaScript (Vanilla)
-- Media Queries for responsiveness
 
 ---
 
